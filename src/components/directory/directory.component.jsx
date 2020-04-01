@@ -4,7 +4,7 @@ import React from 'react';
 
 import MenuItem from '../menu-item/men-item.component';
 import './directory.styles.scss';
-import { createContext } from 'react';
+// import { createContext } from 'react';
 class Directory extends React.Component{
     constructor(){
         super();
@@ -14,7 +14,7 @@ class Directory extends React.Component{
                   title: 'hats',
                   imgUrl: 'https://i.ibb.co/cvpntL1/hats.png',
                   id: 1,
-                  linkUrl: '/hats'
+                  linkUrl: 'shop/hats'
                 },
                 {
                   title: 'jackets',
